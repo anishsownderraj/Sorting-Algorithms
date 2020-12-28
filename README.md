@@ -1,8 +1,6 @@
 Directions to use my program:
 
-To compile the program run `clang -Wall -Wpedantic -Wextra -Werror sorting.c -o sorting`
-
-To run the program run `./sorting -[Absqi] -[p:(number of elements to be printed)] -[n:(array size) -[r:(seed value)]]`
+Using Makefile to run the program:
 
 By typing `make` or `make all` both commands `clang -Wall -Wpedantic -Wextra -Werror sorting.c -o sorting`
 and `./sorting -[Absqi] -[p:(number of elements to be printed)] -[n:(array size) -[r:(seed value)]]` will compile and run the program. `make clean` will clear out any executables or object files in your current working directory.
