@@ -4,6 +4,9 @@ To compile the program run `clang -Wall -Wpedantic -Wextra -Werror sorting.c -o 
 
 To run the program run `./sorting -[Absqi] -[p:(number of elements to be printed)] -[n:(array size) -[r:(seed value)]]`
 
+By typing `make` or `make all` both commands `clang -Wall -Wpedantic -Wextra -Werror sorting.c -o sorting`
+and `./sorting -[Absqi] -[p:(number of elements to be printed)] -[n:(array size) -[r:(seed value)]]` will compile and run the program. `make clean` will clear out any executables or object files in your current working directory.
+
 Inputting -p -(elements to be printed) will specify the number of elements to be printed, default val is 100
 
 Inputting -n -(array_size) will specify the size of the array to be sorted, default val is 100
@@ -21,8 +24,5 @@ Inputting -s will run shell sort
 Inputting -b will run bubble sort
 
 Using Makefile to run the program:
-
-By typing make or make all both commands `clang -Wall -Wpedantic -Wextra -Werror sorting.c -o sorting`
-and `./sorting -[absqi] -[p:(number of elements to be printed)] -[n:() -[r:(seed value)]]` will compile and run the program. `make clean` will clear out any executables or object files in your current working directory.
 
 No Make Infer Errors
