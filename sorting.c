@@ -159,7 +159,7 @@ int main(int argc, char **argv) {
           qa, array_size, zero, array_size - 1, stats, moves, comparisons);
       // Print Sort name and Stats
       printf("Quick Sort\n");
-      printf("%d elements, %ld moves, %ld compares", array_size, stats[0],
+      printf("%d elements, %lld moves, %lld compares", array_size, stats[0],
           stats[1]);
       for (uint32_t index = 0; index < print; index++) {
         if (index % 7 == 0) {
